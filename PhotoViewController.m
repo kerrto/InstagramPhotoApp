@@ -6,18 +6,19 @@
 //  Copyright © 2016 Kerry Toonen. All rights reserved.
 //
 
-#import "THPhotoViewController.h"
+#import "PhotoViewController.h"
 #import "PhotoCell.h"
 #import <SimpleAuth/SimpleAuth.h>
+#import "DetailViewController.h"
 
-@interface THPhotoViewController ()
+@interface PhotoViewController ()
 
 @property (nonatomic) NSString *accessToken;
 @property (nonatomic) NSArray *photos;
 
 @end
 
-@implementation THPhotoViewController
+@implementation PhotoViewController
 
 -(instancetype) init {
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];

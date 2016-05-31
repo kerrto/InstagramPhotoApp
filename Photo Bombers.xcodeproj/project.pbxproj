@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AB2586C81CFE0E7400B8D0ED /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2586C71CFE0E7400B8D0ED /* PhotoController.m */; };
+		AB2586CB1CFE136E00B8D0ED /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2586CA1CFE136E00B8D0ED /* DetailViewController.m */; };
 		AB8A932D1CFA67CB00D8A388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A932C1CFA67CB00D8A388 /* main.m */; };
 		AB8A93301CFA67CB00D8A388 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A932F1CFA67CB00D8A388 /* AppDelegate.m */; };
 		AB8A93331CFA67CB00D8A388 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A93321CFA67CB00D8A388 /* ViewController.m */; };
 		AB8A93381CFA67CB00D8A388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8A93371CFA67CB00D8A388 /* Assets.xcassets */; };
 		AB8A933B1CFA67CB00D8A388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8A93391CFA67CB00D8A388 /* LaunchScreen.storyboard */; };
 		AB8A93461CFA67CB00D8A388 /* Photo_BombersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A93451CFA67CB00D8A388 /* Photo_BombersTests.m */; };
-		AB8A93521CFA683300D8A388 /* THPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A93511CFA683300D8A388 /* THPhotoViewController.m */; };
+		AB8A93521CFA683300D8A388 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A93511CFA683300D8A388 /* PhotoViewController.m */; };
 		AB8A93551CFA702900D8A388 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A93541CFA702900D8A388 /* PhotoCell.m */; };
 		B33AF868BCE887ECD6D50AE2 /* libPods-Photo Bombers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F64222F37C8BD4CCE9165A /* libPods-Photo Bombers.a */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,8 @@
 		08F64222F37C8BD4CCE9165A /* libPods-Photo Bombers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Photo Bombers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2586C61CFE0E7400B8D0ED /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
 		AB2586C71CFE0E7400B8D0ED /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		AB2586C91CFE136E00B8D0ED /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AB2586CA1CFE136E00B8D0ED /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		AB8A93281CFA67CB00D8A388 /* Photo Bombers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Bombers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8A932C1CFA67CB00D8A388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB8A932E1CFA67CB00D8A388 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,8 +48,8 @@
 		AB8A93411CFA67CB00D8A388 /* Photo BombersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo BombersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8A93451CFA67CB00D8A388 /* Photo_BombersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_BombersTests.m; sourceTree = "<group>"; };
 		AB8A93471CFA67CB00D8A388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB8A93501CFA683300D8A388 /* THPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THPhotoViewController.h; path = ../THPhotoViewController.h; sourceTree = "<group>"; };
-		AB8A93511CFA683300D8A388 /* THPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THPhotoViewController.m; path = ../THPhotoViewController.m; sourceTree = "<group>"; };
+		AB8A93501CFA683300D8A388 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoViewController.h; path = ../PhotoViewController.h; sourceTree = "<group>"; };
+		AB8A93511CFA683300D8A388 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewController.m; path = ../PhotoViewController.m; sourceTree = "<group>"; };
 		AB8A93531CFA702900D8A388 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
 		AB8A93541CFA702900D8A388 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
 		ABA395061CFA8A62007C94A2 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -106,8 +109,8 @@
 		AB8A932A1CFA67CB00D8A388 /* Photo Bombers */ = {
 			isa = PBXGroup;
 			children = (
-				AB8A93501CFA683300D8A388 /* THPhotoViewController.h */,
-				AB8A93511CFA683300D8A388 /* THPhotoViewController.m */,
+				AB8A93501CFA683300D8A388 /* PhotoViewController.h */,
+				AB8A93511CFA683300D8A388 /* PhotoViewController.m */,
 				AB8A93531CFA702900D8A388 /* PhotoCell.h */,
 				AB8A93541CFA702900D8A388 /* PhotoCell.m */,
 				AB2586C61CFE0E7400B8D0ED /* PhotoController.h */,
@@ -116,6 +119,8 @@
 				AB8A932F1CFA67CB00D8A388 /* AppDelegate.m */,
 				AB8A93311CFA67CB00D8A388 /* ViewController.h */,
 				AB8A93321CFA67CB00D8A388 /* ViewController.m */,
+				AB2586C91CFE136E00B8D0ED /* DetailViewController.h */,
+				AB2586CA1CFE136E00B8D0ED /* DetailViewController.m */,
 				AB8A93371CFA67CB00D8A388 /* Assets.xcassets */,
 				AB8A93391CFA67CB00D8A388 /* LaunchScreen.storyboard */,
 				AB8A933C1CFA67CB00D8A388 /* Info.plist */,
@@ -304,7 +309,8 @@
 				AB2586C81CFE0E7400B8D0ED /* PhotoController.m in Sources */,
 				AB8A93301CFA67CB00D8A388 /* AppDelegate.m in Sources */,
 				AB8A932D1CFA67CB00D8A388 /* main.m in Sources */,
-				AB8A93521CFA683300D8A388 /* THPhotoViewController.m in Sources */,
+				AB8A93521CFA683300D8A388 /* PhotoViewController.m in Sources */,
+				AB2586CB1CFE136E00B8D0ED /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

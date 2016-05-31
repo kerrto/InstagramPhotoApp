@@ -26,7 +26,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    THPhotoViewController *photosViewController = [[THPhotoViewController alloc] init];
+    PhotoViewController *photosViewController = [[PhotoViewController alloc] init];
     
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:photosViewController];
     
