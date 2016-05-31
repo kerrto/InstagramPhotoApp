@@ -10,8 +10,10 @@
 #import "PhotoCell.h"
 #import <SimpleAuth/SimpleAuth.h>
 #import "DetailViewController.h"
+#import "PresentDetailTransition.h"
+#import "DismissDetailTransition.h"
 
-@interface PhotoViewController ()
+@interface PhotoViewController () <UIViewControllerTransitioningDelegate>
 
 @property (nonatomic) NSString *accessToken;
 @property (nonatomic) NSArray *photos;
@@ -91,4 +93,38 @@
     cell.photo = self.photos[indexPath.row];
     return cell;
 }
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:
+(NSIndexPath *)indexPath {
+    
+    NSDictionary *photo = self.photos[indexPath.row];
+    
+    DetailViewController *viewController = [[DetailViewController alloc] init];
+    viewController.photo = photo;
+    
+    viewController.modalPresentationStyle = UIModalPresentationCustom;
+    viewController.transitioningDelegate = self;
+    
+    [self presentViewController:viewController animated:YES completion:nil];
+
+}
+
+-(id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
+    return [[PresentDetailTransition alloc] init];
+}
+
+-(id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+    return [[DismissDetailTransition alloc] init];
+}
 @end
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AB2586C81CFE0E7400B8D0ED /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2586C71CFE0E7400B8D0ED /* PhotoController.m */; };
 		AB2586CB1CFE136E00B8D0ED /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2586CA1CFE136E00B8D0ED /* DetailViewController.m */; };
+		AB2586CE1CFE1CDB00B8D0ED /* PresentDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2586CD1CFE1CDB00B8D0ED /* PresentDetailTransition.m */; };
+		AB2586D11CFE219E00B8D0ED /* DismissDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2586D01CFE219E00B8D0ED /* DismissDetailTransition.m */; };
 		AB8A932D1CFA67CB00D8A388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A932C1CFA67CB00D8A388 /* main.m */; };
 		AB8A93301CFA67CB00D8A388 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A932F1CFA67CB00D8A388 /* AppDelegate.m */; };
 		AB8A93331CFA67CB00D8A388 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A93321CFA67CB00D8A388 /* ViewController.m */; };
@@ -36,6 +38,10 @@
 		AB2586C71CFE0E7400B8D0ED /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
 		AB2586C91CFE136E00B8D0ED /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		AB2586CA1CFE136E00B8D0ED /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AB2586CC1CFE1CDB00B8D0ED /* PresentDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentDetailTransition.h; sourceTree = "<group>"; };
+		AB2586CD1CFE1CDB00B8D0ED /* PresentDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentDetailTransition.m; sourceTree = "<group>"; };
+		AB2586CF1CFE219E00B8D0ED /* DismissDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissDetailTransition.h; sourceTree = "<group>"; };
+		AB2586D01CFE219E00B8D0ED /* DismissDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissDetailTransition.m; sourceTree = "<group>"; };
 		AB8A93281CFA67CB00D8A388 /* Photo Bombers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Bombers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8A932C1CFA67CB00D8A388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB8A932E1CFA67CB00D8A388 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +119,10 @@
 				AB8A93511CFA683300D8A388 /* PhotoViewController.m */,
 				AB8A93531CFA702900D8A388 /* PhotoCell.h */,
 				AB8A93541CFA702900D8A388 /* PhotoCell.m */,
+				AB2586CC1CFE1CDB00B8D0ED /* PresentDetailTransition.h */,
+				AB2586CD1CFE1CDB00B8D0ED /* PresentDetailTransition.m */,
+				AB2586CF1CFE219E00B8D0ED /* DismissDetailTransition.h */,
+				AB2586D01CFE219E00B8D0ED /* DismissDetailTransition.m */,
 				AB2586C61CFE0E7400B8D0ED /* PhotoController.h */,
 				AB2586C71CFE0E7400B8D0ED /* PhotoController.m */,
 				AB8A932E1CFA67CB00D8A388 /* AppDelegate.h */,
@@ -307,7 +317,9 @@
 				AB8A93331CFA67CB00D8A388 /* ViewController.m in Sources */,
 				AB8A93551CFA702900D8A388 /* PhotoCell.m in Sources */,
 				AB2586C81CFE0E7400B8D0ED /* PhotoController.m in Sources */,
+				AB2586CE1CFE1CDB00B8D0ED /* PresentDetailTransition.m in Sources */,
 				AB8A93301CFA67CB00D8A388 /* AppDelegate.m in Sources */,
+				AB2586D11CFE219E00B8D0ED /* DismissDetailTransition.m in Sources */,
 				AB8A932D1CFA67CB00D8A388 /* main.m in Sources */,
 				AB8A93521CFA683300D8A388 /* PhotoViewController.m in Sources */,
 				AB2586CB1CFE136E00B8D0ED /* DetailViewController.m in Sources */,
@@ -435,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.KerryToonen.Photo-Bombers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -447,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.KerryToonen.Photo-Bombers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
